@@ -213,7 +213,7 @@ def answer_question(question: str) -> str:
     prompt = build_llm_prompt(question, what_if_info)
     try:
         completion = client.chat.completions.create(
-            model="llama-3.1-8b-instant",
+            model="openai/gpt-oss-20b",
             messages=[{"role": "user", "content": prompt}],
             max_tokens=500
         )
