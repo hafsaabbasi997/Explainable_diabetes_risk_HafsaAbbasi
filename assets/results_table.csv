@@ -1,0 +1,8 @@
+Metric,Value
+CV ROC-AUC,0.8363
+Test ROC-AUC,0.8221
+Test PR-AUC,0.6845
+Accuracy,0.7403
+Precision,0.5972
+Recall,0.7963
+F1,0.6825
